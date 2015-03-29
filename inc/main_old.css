@@ -1,0 +1,36 @@
+* {margin: 0; padding: 0; }
+html, button, input[type=button] {font-family: sans-serif; }
+html {background: url(/img/bg.jpg) #BAA06B; }
+body {
+  margin: 0 auto; padding: 10px;
+  width: 990px;
+}
+.header, .nav, .article, .footer {
+  border: 2px solid #3C2315;
+  background: #fff;
+  margin: 10px 0; padding: 10px;
+}
+
+.header {position: relative; }
+.header h3 {
+  padding: 10px 0; 
+  font-weight: normal; font-style: italic; font-size: medium; 
+  position: absolute; top: 10px; right: 10px; 
+}
+
+.article h1 {padding: 0 0 10px 0; }
+.article h2 {padding: 0 0 10px 0; font-weight: normal; font-style: italic; font-size: large; }
+.article h3 {padding: 0 0 10px 0; }
+.article p {padding: 0 0 10px 0; }
+.article dl {padding: 0 0 10px 0; }
+.article dt {font-weight: bold; }
+.article dd {padding: 0 0 10px 0; }
+.article ul {padding: 0 0 10px 20px; }
+.article li {padding: 0 0 10px 0; }
+.article address {padding: 0 0 10px 0; }
+
+@media only screen and (max-width: 1000px) {
+  body {width: 90%; }
+  .article h1 {font-size: large; }
+  .header h3 {position: static; padding: 0; font-size: small}
+}

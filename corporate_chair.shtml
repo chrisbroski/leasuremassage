@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<title>Corporate Events - Leasure Massage</title>
+<link rel="stylesheet" href="/inc/main.css">
+</head>
+
+<body>
+<!--#include virtual="inc/header.shtml" -->
+
+<div class="article">
+
+<img src="/img/stacy_chair_massage.jpg" alt="">
+<h1>Corporate Events</h1>
+
+<p>
+Show your employees your appreciation with some chair massage. Leasure Massage can arrange chair massage for any size corporate event.
+</p>
+
+<p>
+Call for pricing and scheduling.
+</p>
+
+<address>
+<p><a href="tel:+12487209751">(248) 720-9751</a></p>
+<p><a href="mailto:leasuremassage@gmail.com">leasuremassage@gmail.com</a></p>
+</address>
+
+</div>
+
+<!--#include virtual="inc/footer.shtml" -->
+
+</body>
+</html>

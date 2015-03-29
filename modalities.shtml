@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  
+  <style style="text/css">
+    .article > div {width: 460px; float: left; padding: 0 10px 0 0; }
+    
+    @media only screen and (max-width: 800px) {
+    .article > div {width: auto; float: none; padding: 0; }
+    }
+  </style>
+  
+  <title>Services - Leasure Massage</title>
+  <link rel="stylesheet" href="/inc/main.css">
+</head>
+
+<body>
+<!--#include virtual="inc/header.shtml" -->
+
+<div class="article">
+<h1>Services</h1>
+
+<div>
+<h3>Swedish</h3>
+<p>Swedish Massage stimulates the skin and nervous system while at the same time relaxing the nerves themselves. As it can help reduce emotional and physical stress it is often recommended as part of a regular program for stress management.
+<p>Swedish massage uses five main strokes to stimulate the circulation of blood through the body; petrissage (kneading), effleurage (stroking),  friction, tapotement (tapping), and vibration. 
+</div>
+
+<div>
+<h3>Therapeutic</h3>
+<p>Therapeutic massage is performed with the intent of improving conditions or pathologies that have been diagnosed by a physician; a wide variety of modalities or procedures are utilized to focus the treatment based on the diagnosed condition.
+</div>
+
+<div>
+<h3>Chair Massage</h3>
+<p>Known as seated massage, chair massage, or on-site massage, this technique involves the use of a specially designed massage chair in which the client sits comfortably. This massage is provided to the fully clothed client in a variety of settings, including businesses, airports, and street fairs.
+</div>
+
+<div>
+<h3>Reflexology</h3>
+<p>Based on an ancient Chinese therapy, reflexology involves manipulation of specific reflex areas in the foot, hands, and ears that correspond to other parts of the body. Similar to acupressure principles, reflexology works with the body’s energy flow to stimulate self-healing and maintain balance in physical function. This technique is used to reduce pain, increase relaxation, and stimulate circulation of blood and lymphatic fluids. It is especially useful in stress-related illness and emotional disorders. Reflexology is also convenient in cases where an area of the body is traumatized or diseased to the extent that direct manipulation is not appropriate. 
+</div>
+
+<!-- <dt>Carpal Tunnel -->
+<div>
+<h3>Thai-Ayurvedic Yoga Massage</h3>
+<p>Thai massage is like yoga, it focuses on stretching and deep breathing to produce a deeply relaxed state.  The therapist uses their hands, feet, elbows and knees to move you into various stretches while massaging your muscles.  No lotion is used and you, the client, wear comfortable, stretchable workout clothes. Think about it as a yoga class where you relax and the therapist does all of the work.  You will leave feeling limber, peaceful and invigorated.
+</div>
+<!--
+<div>
+<h3>Hot Rock Massage</h3>
+<p>Heated or hot stone massage is a type of treatment that uses warmed stones to relax muscles and induce a calming state of mind.
+<p>Intended to be extremely relaxing, a heated stone massage involves the placement of sanitized, warmed, smooth rocks (usually basalt, a type of volcanic rock that retains heat) upon different parts of the body. Typically, the treatment is done in conjunction with traditional massage techniques, such as Swedish massage, and the stones may be used with applied pressure by the massage therapist during the treatment. Often, stones also are placed--and left for a period of time--on certain body parts such as the spine, hands or belly, and replaced once they cool. Cool stones may also be used to address muscle injury.
+</div>-->
+<h3 style="clear: both; ">Myomassology</h3>
+<p>
+Myomassology is a type of massage which integrates massage techniques from many different disciplines. In addition to bodywork techniques, myomassology also integrates energy work and alternative medical treatments, along with nutritional and physical education. Each myomassologist approaches the technique slightly differently, customizing treatment for the patient to ensure that he or she receives the best care possible. The term was first used by Irene Gauthier, one of the founders of this approach to massage.
+
+<p>
+This style of massage was a natural outgrowth of Swedish style massage which developed in the 1970s. Massage therapists who learned the basic Swedish technique sometimes wanted to offer more to their clients, and they started integrating techniques from other disciplines. Over time, an all-encompassing style of massage which came to be known as myomassology arose. 
+
+<p>
+In a typical myomassology session, the therapist meets with the client to discuss the client's physical issues, and any sources of emotional trauma the client is experiencing. After meeting with the patient, the therapist steps out so that the client can disrobe and climb onto a massage table. During the session, the massage therapist uses a variety of massage strokes and techniques to creating a flowing massage session which addresses specific muscle aches and pains, a desire for general well-being, and any particular issues the client may be experiencing.
+
+<p>
+This style of bodywork relies heavily on a continuing relationship between therapist and client. At least two sessions a month are usually recommended, with some people going once a week, and long-term commitment to myomassology is strongly encouraged.
+</div>
+
+<!--#include virtual="inc/footer.shtml" -->
+
+</body>
+</html>

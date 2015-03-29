@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<title>Contact - Leasure Massage</title>
+<link rel="stylesheet" href="/inc/main.css">
+</head>
+
+<body>
+<!--#include virtual="inc/header.shtml" -->
+
+<div class="article">
+<h1>Contact Leasure Massage</h1>
+
+<address>
+<h3>Stacy Leasure, Myomassologist</h3>
+<p><a href="tel:+12487209751">(248) 720-9751</a></p>
+<p><a href="mailto:leasuremassage@gmail.com">leasuremassage@gmail.com</a></p>
+</address>
+<!--
+<address>
+<h3>TLC Holistic Wellness</h3>
+<p>Office hours: Monday 1pm to 6pm, Tuesday 3pm - 7pm and Friday 3pm - 5:30pm</p>
+<p><a href="https://maps.google.com/maps?q=TLC+Holistic+Wellness+31580+Schoolcraft+Rd+Livonia,+Michigan+48150">31580 Schoolcraft Road<br>
+Livonia, MI 48150</a></p>
+<p><a href="tel:+17346640339">(734) 664-0339</a></p>
+<p><a href="mailto:leasuremassage@gmail.com">leasuremassage@gmail.com</a></p>
+</address>
+-->
+</div>
+
+<!--#include virtual="inc/footer.shtml" -->
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<div class="header">
+  <h2><a href="/">Leasure Massage</a></h2>
+  <h3>At your Leasure &mdash; Your home or my office.</h3>
+</div>
+
+<div class="nav">
+<!--#if expr="${DOCUMENT_NAME}=index.shtml" 
+-->  <span>Home</span>
+<!--#else -->  <a href="/">Home</a>
+<!--#endif  
+
+--><!--#if expr="${DOCUMENT_NAME}=modalities.shtml" 
+-->  <span>Services</span>
+<!--#else -->  <a href="/modalities.shtml">Services</a>
+<!--#endif 
+
+--><!--#if expr="${DOCUMENT_NAME}=corporate_chair.shtml" 
+-->  <span>Corporate Events</span>
+<!--#else -->  <a href="/corporate_chair.shtml">Corporate Events</a>
+<!--#endif 
+
+--><!--#if expr="${DOCUMENT_NAME}=contact.shtml" 
+-->  <span>Contact</span>
+<!--#else -->  <a href="/contact.shtml">Contact</a>
+<!--#endif 
+--></div>
