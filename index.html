@@ -14,11 +14,13 @@ a {color: #3D6218; }
 a:visited {color: #3D6218; }
 #bg {
 	position: fixed; top:0; left: 0; z-index: -1;
-	width: 100%; min-width: 900px; 
+	width: 100%; min-width: 900px;
 }
 #bg img {width: 100%; height: auto; }
 #header {padding: 6px; background: rgba(255, 255, 255, .8); }
-#header p {position: absolute; top: 0; left: 320px; margin-left: 50%; }
+#header ul {margin: 0; padding: 0; position: absolute; top: 0; right: 0; }
+#header ul li {list-style-type: none; }
+#header div {position: relative; margin: 0 auto; max-width: 760px; }
 .article {
 	max-width: 760px; /*height: 400px;*/
     margin: 15px auto 100px;
@@ -41,6 +43,13 @@ div.header {padding-bottom: 30px; }
 div.header p span {white-space: nowrap; }
 div.header, div.article h5 {text-align: center; }
 div.article h3 {margin: 1.5em 0 0.2em; }
+
+/* Mobile layout */
+@media (max-width: 420px) {
+    h1 {margin: 0; padding: 0; text-align: center; }
+    #header ul {text-align: center; position: static; }
+    #header ul li {display: inline; }
+}
 </style>
 
 <body>
@@ -48,22 +57,26 @@ div.article h3 {margin: 1.5em 0 0.2em; }
 <div id="bg"><img src="assets/chair-massage-professional11.jpg" alt=""></div>
 
 <div id="header">
+    <div>
 	<h1><img src="assets/leasure massage.png" alt="Leasure Massage"></h1>
-	<p><a href="http://leasuremassage.blogspot.com/" target="_blank">Blog</a><br>
-	    <a href="https://www.facebook.com/leasuremassage" target="_blank">Facebook</a><br>
-	    <a href="contact">Contact</a>
+	<ul>
+        <li><a href="http://leasuremassage.blogspot.com/" target="_blank">Blog</a>
+	    <li><a href="https://www.facebook.com/leasuremassage" target="_blank">Facebook</a>
+	    <li><a href="contact">Contact</a>
+    </ul>
+    </div>
 </div>
 
 <div class="article">
 
 <div class="header">
 <h2>I offer simple, straightforward pricing:</h2>
-<p><span>30 mins - $40</span> ‧ <span>60 mins - $60</span> ‧ <span>90 mins - $80</span> ‧ <span>120 mins - $105</span>
-<p>For my mobile services, an additional $20 will be added, per session and per client.
+<p><span>30 mins - $45</span> ‧ <span>60 mins - $75</span> ‧ <span>90 mins - $105</span> ‧ <span>120 mins - $135</span>
+<p>For my mobile services, an additional $20 will be added, per session and per client, within a 5 mile radius of Berkley, MI. Additional miles at $1/mile.
 </div>
 
 <h3>LEASURE  MASSAGE</h3>
-<p>Leasure signature massage is exactly that - a customized session based on your preferences and your body's needs. Whether you are looking for a lighter massage or very deep tissue work this massage is perfectly customizable. It is performed on a massage table and comprised of the best of what I have learned in my experience - pulling from several different modalities including (but not limited to) Swedish, Deep Tissue, Thai and Reflexology. Stretching can be added in by request at no additional charge.   																				
+<p>Leasure signature massage is exactly that - a customized session based on your preferences and your body's needs. Whether you are looking for a lighter massage or very deep tissue work this massage is perfectly customizable. It is performed on a massage table and comprised of the best of what I have learned in my experience - pulling from several different modalities including (but not limited to) Swedish, Deep Tissue, Thai and Reflexology. Stretching can be added in by request at no additional charge.
 
 <h3>SWEDISH MASSAGE</h3>
 <p>Is what most people think about when they think of massage.  Generally, the basic massage strokes such as gliding, kneading, compression, rocking and friction are used for a relaxing massage.  Joint movement and stretching techniques may be included.
@@ -72,14 +85,14 @@ div.article h3 {margin: 1.5em 0 0.2em; }
 <p>Especially effective for back, neck, shoulder pain and stiffness. I use advanced massage techniques that reach the deeper layers of muscles, tendons and ligaments, plus the use of trigger points to relieve chronic pain, cross fiber stroke to ease contracted muscles and range of motion to increase flexibility and reduce pain in joints.
 
 <h3>THAI YOGA MASSAGE</h3>
-<p>This unique therapy blends the ancient practices of thai massage and yoga to provide the ultimate experience in relaxation, greater flexibility, circulation, and healing through compressions and stretches. Traditionally done on a floor mat, the client wears loose fitting clothes and avoids any use of lubricants. Also called “lazy man’s yoga.”  A truly unique and great experience! I personally recommend session lasting 90-120 minutes. 
+<p>This unique therapy blends the ancient practices of thai massage and yoga to provide the ultimate experience in relaxation, greater flexibility, circulation, and healing through compressions and stretches. Traditionally done on a floor mat, the client wears loose fitting clothes and avoids any use of lubricants. Also called “lazy man’s yoga.”  A truly unique and great experience! I personally recommend session lasting 90-120 minutes.
 
 
 <h3>REFLEXOLOGY/FOOT MASSAGE</h3>
 <p>This is the real treatment, not just a foot rub! :) The theory is that "reflexes", or different points on the feet correspond to different structures in the body such as organs, bones, and glands and by applying pressure and massage to these reflex points, we can aid the body in achieving healthy balance. The treatment begins with a cooling foot cleanse and relaxation with hot towels and essential oils. They are then relaxed and gently stretched using a variety of techniques and reflexes are worked using finger pressure.  Once both feet have been traditionally worked the treatment will progress into a soothing, relaxing massage of both feet and legs up to your knees. This process ensures you get an authentic reflexology treatment while still indulging in a relaxing foot massage. I am all about getting the best of both worlds!
 
 <h3>SIGNATURE HOT STONE MASSAGE</h3>
-<p>Here you will encounter everything that is the signature massage, only with the added benefit of hot stones incorporated into your massage. My hot stone massage is unlike any other you have experienced! I use a combination of my hands and the stones to give you the best of both tools. I do not place stones on your body and sit idly by- I actually hold the smooth, heated stones in the palms of my hands repeatedly throughout your massage using the soothing heat to melt the stress out of sore, tired muscles and joints. 
+<p>Here you will encounter everything that is the signature massage, only with the added benefit of hot stones incorporated into your massage. My hot stone massage is unlike any other you have experienced! I use a combination of my hands and the stones to give you the best of both tools. I do not place stones on your body and sit idly by- I actually hold the smooth, heated stones in the palms of my hands repeatedly throughout your massage using the soothing heat to melt the stress out of sore, tired muscles and joints.
 
 <h5>Draping is mandatory. </h5>
 
