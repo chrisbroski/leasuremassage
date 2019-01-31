@@ -6,3 +6,12 @@
 <meta name="description" content="Therapeutic massage at your home, my office, or corporate events.">
 <title>Leasure Massage</title>
 <link rel="stylesheet" href="/inc/new.css">
+
+<body>
+
+<div id="bg"><img src="assets/chair-massage-professional11.jpg" alt=""></div>
+
+<div id="header">
+    <div>
+	<h1><img src="assets/leasure massage.png" alt="Leasure Massage"></h1>
+<ul>
